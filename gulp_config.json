@@ -1,0 +1,36 @@
+{
+	"sass":{
+		"compile": true,
+		"src": "assets/scss",
+		"dest": "themify-ultra-child",
+		"excludeFiles": [
+			"file.scss"
+		],
+		"sourcemap": true,
+		"options": {
+			"errLogToConsole": true,
+			"outputStyle": "compressed"
+		}
+	},
+	"autoPrefixer" : {
+		"browsers": [
+			"last 4 versions",
+			"> 1%",
+			"ie >= 10"
+		]
+	},
+	"js":{
+		"compile": false,
+		"uglify": true,
+		"sourcemap": true,
+		"src": "assets/js",
+		"dest": "user/themes/base-theme/assets/js"
+	},
+	"browserSync" : {
+		"watchfiles" : [
+			"themify-ultra-child/*.css",
+			"themify-ultra-child/**/*.js"
+		],
+		"proxy" : "pereleon.devel"
+	}
+}

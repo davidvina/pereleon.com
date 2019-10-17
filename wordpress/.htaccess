@@ -1,0 +1,26 @@
+
+# BEGIN WPSuperCache
+# END WPSuperCache
+<filesMatch "\.(ico|pdf|flv|jpg|jpeg|jgz|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800"
+   Header set Expires "Thu, 15 Apr 2025 20:00:00 GMT"
+</filesMatch>
+<IfModule mod_headers.c>
+<FilesMatch "\.(js|css|xml|gz|jgz)$">
+   Header append Vary Accept-Encoding
+</FilesMatch>
+</IfModule>
+Addtype font/opentype .otf
+Addtype font/truetype .ttf
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css font/opentype font/truetype
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

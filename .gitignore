@@ -1,0 +1,56 @@
+.idea
+
+.well-known
+
+### WordPress template
+
+wordpress/wp-config.php
+
+# ignore everything in the root except the "wp-content" directory.
+wordpress/!wp-content/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wordpress/wp-content/*
+wordpress/!wp-content/mu-plugins/
+wordpress/!wp-content/plugins/
+wordpress/!wp-content/themes/
+wordpress/!wp-content/languages/
+
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+### macOS template
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+

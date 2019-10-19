@@ -1,0 +1,385 @@
+# Translation of Plugins - Cookie Notice for GDPR - Stable (latest release) in Catalan
+# This file is distributed under the same license as the Plugins - Cookie Notice for GDPR - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-16 10:36:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - Cookie Notice for GDPR - Stable (latest release)\n"
+
+#: cookie-notice.php:554
+msgid "The text of the privacy policy button."
+msgstr "El text del botó de la política de privadesa."
+
+#: cookie-notice.php:745
+msgid "Enter additional button CSS classes separated by spaces."
+msgstr "Afegiu classes CSS addicionals per al botó, separades amb espais."
+
+#: cookie-notice.php:615
+msgid "Select the privacy policy link target."
+msgstr "Escolliu el destí de l'enllaç de la política de privadesa."
+
+#: cookie-notice.php:586
+msgid "Synchronize with WordPress Privacy Policy page."
+msgstr "Sincronitza-ho amb la pàgina de política de privadesa del WordPress."
+
+#: cookie-notice.php:550
+msgid "Enable privacy policy link."
+msgstr "Habilita l'enllaç de política de privadesa."
+
+#: cookie-notice.php:516
+msgid "Select the method for displaying the revoke button - automatic (in the Cookie Notice container) or manual using <code>[cookies_revoke]</code> shortcode."
+msgstr "Escolliu el mètode per a mostrar el botó de revocació: automàtic (al contenidor del Cookie Notice) o manual (usant el codi <code>[cookies_revoke]</code>)."
+
+#: cookie-notice.php:508
+msgid "The text of the button to revoke the cookie consent."
+msgstr "El text del botó per a revocar el consentiment de galetes."
+
+#: cookie-notice.php:505
+msgid "Enable to give to the user the possibility to revoke their cookie consent <i>(requires \"Refuse cookies\" option enabled)</i>."
+msgstr "Activeu-ho per a permetre que els usuaris puguin revocar el consentiment de galetes <i>(cal que l'opció \"Refusa les galetes\" estigui activada)</i>."
+
+#: cookie-notice.php:490
+msgid "The code to be used in your site footer, before the closing body tag."
+msgstr "El codi a usar al peu del lloc web, abans de l'etiqueta de tancament del body."
+
+#: cookie-notice.php:486
+msgid "The code to be used in your site header, before the closing head tag."
+msgstr "El codi per a usar a la capçalera del lloc web, abans de l'etiqueta de tancament del head."
+
+#: cookie-notice.php:483
+msgid "Body"
+msgstr "Cos"
+
+#: cookie-notice.php:482
+msgid "Head"
+msgstr "Capçalera"
+
+#: cookie-notice.php:408
+msgid "Button class"
+msgstr "Classe del botó"
+
+#: cookie-notice.php:193 cookie-notice.php:395
+msgid "Revoke cookies"
+msgstr "Galetes de revocació"
+
+#: cookie-notice.php:394
+msgid "Refuse cookies"
+msgstr "Refusa les galetes"
+
+#: cookie-notice.php:194 cookie-notice.php:392
+msgid "Privacy policy"
+msgstr "Política de privadesa"
+
+#: cookie-notice.php:166
+msgid "An hour"
+msgstr "Una hora"
+
+#: cookie-notice.php:147
+msgid "Manual"
+msgstr "Manual"
+
+#: cookie-notice.php:146
+msgid "Automatic"
+msgstr "Automàtic"
+
+#: cookie-notice.php:527
+msgid "Enable to reload the page after cookies are accepted."
+msgstr "Habilieu-ho per a recarregar la pàgina un cop s'hagin acceptat les galetes."
+
+#: cookie-notice.php:397
+msgid "Reloading"
+msgstr "Recàrrega"
+
+#: cookie-notice.php:494
+msgid "To get the cookie notice status use <code>cn_cookies_accepted()</code> function."
+msgstr "Utilitzeu la funció <code>cn_cookies_accepted()</code> per obtenir l'estat de la notificació de les galetes."
+
+#: cookie-notice.php:464
+msgid "The text of the button to refuse the usage of the cookies."
+msgstr "El text del botó per refusar l'ús de les galetes."
+
+#: cookie-notice.php:396
+msgid "Script blocking"
+msgstr "Bloqueig del script"
+
+#: cookie-notice.php:358
+msgid "Check out our other <a href=\"%s\" target=\"_blank\">WordPress plugins</a>."
+msgstr "Mireu les altres <a href=\"%s\" target=\"_blank\">extensions per al WordPress</a>."
+
+#: cookie-notice.php:357
+msgid "Blog about it & link to the <a href=\"%s\" target=\"_blank\">plugin page</a>."
+msgstr "Feu-nos menció al vostre blog i enllaceu amb la <a href=\"%s\" target=\"_blank\">pàgina de l'extensió</a>."
+
+#: cookie-notice.php:356
+msgid "<a href=\"%s\" target=\"_blank\">Rate it 5</a> on WordPress.org"
+msgstr "<a href=\"%s\" target=\"_blank\">Puntueu-nos amb un 5</a> al WordPress.org"
+
+#: cookie-notice.php:353
+msgid "If you are having problems with this plugin, please browse it's <a href=\"%s\" target=\"_blank\">Documentation</a> or talk about them in the <a href=\"%s\" target=\"_blank\">Support forum</a>"
+msgstr "Si teniu problemes amb aquesta extensió accediu a la <a href=\"%s\" target=\"_blank\">documentació</a> o comenteu-ho al nostre <a href=\"%s\" target=\"_blank\">fòrum de suport</a>"
+
+#: cookie-notice.php:551
+msgid "Need a Cookie Policy? Generate one with <a href=\"%s\" target=\"_blank\" title=\"iubenda\">iubenda</a>."
+msgstr "Necessiteu una política de galetes? Genereu-ne una amb <a href=\"%s\" target=\"_blank\" title=\"iubenda\">iubenda</a>"
+
+#. Author URI of the plugin
+msgid "http://www.dfactory.eu/"
+msgstr "http://www.dfactory.eu/"
+
+#. Author of the plugin
+msgid "dFactory"
+msgstr "dFactory"
+
+#. Description of the plugin
+msgid "Cookie Notice allows you to elegantly inform users that your site uses cookies and to comply with the EU cookie law GDPR regulations."
+msgstr "Cookie Notice permet informar de manera elegant als usuaris que el lloc web fa servir galetes i us permet complir amb la regulació de dades RGPD de la Unió Europea."
+
+#. Plugin URI of the plugin
+msgid "http://www.dfactory.eu/plugins/cookie-notice/"
+msgstr "http://www.dfactory.eu/plugins/cookie-notice/"
+
+#: cookie-notice.php:1080
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "Esteu segur que voleu restablir aquesta configuració als valors predeterminats?"
+
+#: cookie-notice.php:1008
+msgid "Settings"
+msgstr "Configuració"
+
+#: cookie-notice.php:991
+msgid "Support"
+msgstr "Suport"
+
+#: cookie-notice.php:871
+msgid "Settings restored to defaults."
+msgstr "La configuración ha estat restaurada als valors predeterminats."
+
+#: cookie-notice.php:732
+msgid "Choose buttons style."
+msgstr "Trieu l'estil dels botons."
+
+#: cookie-notice.php:711
+msgid "Number of pixels user has to scroll to accept the usage of the cookies and make the notification disappear."
+msgstr "El nombre de píxels que l'usuari ha de desplaçar-se per acceptar l'ús de les galetes i desaparèixer la notificació."
+
+#: cookie-notice.php:708
+msgid "Enable cookie notice acceptance when users scroll."
+msgstr "Activa l'acceptació de la notificació de cookies quan els usuaris es desplacen per la pàgina."
+
+#: cookie-notice.php:697
+msgid "Cookie notice acceptance animation."
+msgstr "Animació en l'acceptació de l'avís de les galetes."
+
+#: cookie-notice.php:676
+msgid "Select location for your cookie notice."
+msgstr "Seleccioneu on s'ha de col·locar l'avís de les galetes."
+
+#: cookie-notice.php:656
+msgid "Select where all the plugin scripts should be placed."
+msgstr "Seleccioneu on s'han de col·locar tots els scripts de l'extensió."
+
+#: cookie-notice.php:638
+msgid "The amount of time that cookie should be stored for."
+msgstr "Quantitat de temps que la galeta s'haurà d'emmagatzemar."
+
+#: cookie-notice.php:593
+msgid "Enter the full URL starting with http(s)://"
+msgstr "Introduïu l'URL complet començant amb http(s)://"
+
+#: cookie-notice.php:580
+msgid "Select from one of your site's pages."
+msgstr "Seleccioneu una de les pàgines del lloc web."
+
+#: cookie-notice.php:569
+msgid "-- select page --"
+msgstr "-- seleccioneu la pàgina --"
+
+#: cookie-notice.php:566
+msgid "Select where to redirect user for more information about cookies."
+msgstr "Seleccioneu on redireccionar l'usuari per obtenir més informació sobre les galetes."
+
+#: cookie-notice.php:494
+msgid "Enter non functional cookies Javascript code here (for e.g. Google Analitycs) to be used after cookies are accepted."
+msgstr "Introduïu aquí el codi Javascript que no hagi de funcionar (per exemple del de Google Analytics) fins que les galetes hagin estat explicitament acceptades."
+
+#: cookie-notice.php:460
+msgid "Enable to give to the user the possibility to refuse third party non functional cookies."
+msgstr "Habiliteu-ho per a permetre que els usuaris rebutgin les galetes no funcionals de tercers."
+
+#: cookie-notice.php:449
+msgid "The text of the option to accept the usage of the cookies and make the notification disappear."
+msgstr "El text de l'opció per acceptar l'ús de les galetes i fer que la notificació desaparegui."
+
+#: cookie-notice.php:436
+msgid "Enter the cookie notice message."
+msgstr "Introduïu el missatge d'avís de la galeta."
+
+#: cookie-notice.php:424
+msgid "Enable if you want all plugin data to be deleted on deactivation."
+msgstr "Activeu-ho si voleu que totes les dades de l'extensió s'eliminin a la desactivació."
+
+#: cookie-notice.php:409
+msgid "Colors"
+msgstr "Colors"
+
+#: cookie-notice.php:407
+msgid "Button style"
+msgstr "Estil del botó"
+
+#: cookie-notice.php:406
+msgid "Animation"
+msgstr "Animació"
+
+#: cookie-notice.php:405
+msgid "Position"
+msgstr "Posició"
+
+#: cookie-notice.php:404
+msgid "Design"
+msgstr "Disseny"
+
+#: cookie-notice.php:401
+msgid "Deactivation"
+msgstr "Desactivació"
+
+#: cookie-notice.php:400
+msgid "Script placement"
+msgstr "Col·locació del script"
+
+#: cookie-notice.php:399
+msgid "Cookie expiry"
+msgstr "Expiració de la galeta"
+
+#: cookie-notice.php:398
+msgid "On scroll"
+msgstr "En desplaçar-se"
+
+#: cookie-notice.php:393
+msgid "Link target"
+msgstr "Destinació de l'enllaç"
+
+#: cookie-notice.php:391
+msgid "Button text"
+msgstr "Text del botó"
+
+#: cookie-notice.php:390
+msgid "Message"
+msgstr "Missatge"
+
+#: cookie-notice.php:389
+msgid "Configuration"
+msgstr "Configuració"
+
+#: cookie-notice.php:373
+msgid "Reset to defaults"
+msgstr "Restableix als valors predeterminats"
+
+#: cookie-notice.php:355
+msgid "Do you like this plugin?"
+msgstr "Us agrada aquesta extensió?"
+
+#: cookie-notice.php:352
+msgid "Need support?"
+msgstr "Necessiteu ajuda?"
+
+#. Plugin Name of the plugin
+#: cookie-notice.php:336 cookie-notice.php:347 cookie-notice.php:350
+msgid "Cookie Notice"
+msgstr "Avís de les galetes"
+
+#: cookie-notice.php:192
+msgid "No"
+msgstr "No"
+
+#: cookie-notice.php:191
+msgid "Ok"
+msgstr "D'acord"
+
+#: cookie-notice.php:190
+msgid "We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it."
+msgstr "Utilitzem cookies per garantir que us donem la millor experiència al nostre lloc web. Si continueu utilitzant aquest lloc, assumirem que us plau."
+
+#: cookie-notice.php:184
+msgid "Footer"
+msgstr "Peu de pàgina"
+
+#: cookie-notice.php:183
+msgid "Header"
+msgstr "Capçalera"
+
+#: cookie-notice.php:179
+msgid "Slide"
+msgstr "Llisca"
+
+#: cookie-notice.php:178
+msgid "Fade"
+msgstr "Dissol"
+
+#: cookie-notice.php:173
+msgid "infinity"
+msgstr "infinit"
+
+#: cookie-notice.php:172
+msgid "1 year"
+msgstr "1 any"
+
+#: cookie-notice.php:171
+msgid "6 months"
+msgstr "6 mesos"
+
+#: cookie-notice.php:170
+msgid "3 months"
+msgstr "3 mesos"
+
+#: cookie-notice.php:169
+msgid "1 month"
+msgstr "1 mes"
+
+#: cookie-notice.php:168
+msgid "1 week"
+msgstr "1 setmana"
+
+#: cookie-notice.php:167
+msgid "1 day"
+msgstr "1 dia"
+
+#: cookie-notice.php:162
+msgid "Bar color"
+msgstr "Color de la barra"
+
+#: cookie-notice.php:161
+msgid "Text color"
+msgstr "Color del text"
+
+#: cookie-notice.php:151
+msgid "Page link"
+msgstr "Enllaç de la pàgina"
+
+#: cookie-notice.php:152
+msgid "Custom link"
+msgstr "Enllaç personalitzat"
+
+#: cookie-notice.php:142
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: cookie-notice.php:141
+msgid "WordPress"
+msgstr "WordPress"
+
+#: cookie-notice.php:140 cookie-notice.php:177
+msgid "None"
+msgstr "Cap"
+
+#: cookie-notice.php:136
+msgid "Bottom"
+msgstr "Inferior"
+
+#: cookie-notice.php:135
+msgid "Top"
+msgstr "Superior"

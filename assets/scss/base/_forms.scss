@@ -1,0 +1,85 @@
+
+.wpcf7 {
+
+	
+	input[type=text],
+	input[type=password],
+	input[type=search],
+	input[type=email],
+	input[type=url],
+	input[type=tel] {
+		max-width: inherit;
+		width: 100%;
+		border-radius: 0px;
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		float: left;
+		font-size: 15px;
+		font-weight: 400;
+		outline: none;
+		padding-left: 20px;
+		color: #959595;
+		border: 1px solid #dbd7d5;
+		position: relative;
+		-webkit-appearance: none;
+		margin-bottom: 16px;
+	}
+	
+	input[type=reset],
+	input[type=submit],
+	button {
+		background-color: #5c4f45;
+		border-radius: 0px;
+		padding: 16px 28px;
+		display: block;
+		width: 100%;
+		//float: right;
+		margin-top: 0;
+		color: #bdd301;
+	}
+	
+	select {
+		padding: .7em;
+		border: 1px solid #dbd7d5;
+		width: 100%;
+		color: #959595;
+		background: #fff;
+		height: 38px;
+		font-size: 13px;
+		font-weight: 400;
+		outline: none;
+		padding-left: 20px;
+		position: relative;
+		-webkit-appearance: none;
+		border-radius: 0px;
+	}
+	
+	label {
+		font-size: 13px;
+		line-height: 26px;
+		width: 100%;
+	}
+	
+	textarea.wpcf7-form-control.wpcf7-textarea {
+		border: 1px solid #dbd7d5;
+		-webkit-appearance: none;
+		height: 215px;
+		min-height: inherit;
+	}
+}
+
+
+.wpcf7-acceptance{
+	display: block;
+}
+
+.acceptance-wrapper{
+	margin-top: 25px;
+}
+
+
+
+div.wpcf7#wpcf7-f304-p24-o1{
+	margin-bottom: 30px;
+}

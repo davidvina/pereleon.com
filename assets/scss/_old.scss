@@ -256,15 +256,7 @@ footer#footer {
   order: 3;
 }
 
-span.wpcf7-list-item {
-  margin: 0;
-  float: left;
-  width: 76%;
-}
 
-.wpcf7 .col2-1.last p {
-  float: left;
-}
 
 .themify_builder .pro-slider-6-0-0-0.module-pro-slider .bsp-slide-excerpt, .themify_builder .pro-slider-6-0-0-0.module-pro-slider .bsp-slide-excerpt p, .themify_builder .pro-slider-1153-0-0-0.module-pro-slider .bsp-slide-excerpt, .themify_builder .pro-slider-1153-0-0-0.module-pro-slider .bsp-slide-excerpt p {
   font-weight: 200;
@@ -299,33 +291,6 @@ ul {
   padding: 0 !important;
 }
 
-input[type=reset], input[type=submit], button {
-  background-color: #5c4f45;
-  border-radius: 0px;
-  padding: 16px 28px;
-  float: right;
-  margin-top: 0;
-  color: #bdd301;
-}
-
-input[type=text], input[type=password], input[type=search], input[type=email], input[type=url], input[type=tel] {
-  max-width: inherit;
-  width: 100%;
-  border-radius: 0px;
-  width: 100%;
-  height: 40px;
-  line-height: 40px;
-  float: left;
-  font-size: 15px;
-  font-weight: 400;
-  outline: none;
-  padding-left: 20px;
-  color: #959595;
-  border: 1px solid #dbd7d5;
-  position: relative;
-  -webkit-appearance: none;
-  margin-bottom: 16px;
-}
 
 blockquote {
   font-size: 1.4em;
@@ -336,36 +301,7 @@ blockquote {
   color: #5c4e46;
 }
 
-textarea.wpcf7-form-control.wpcf7-textarea {
-  border: 1px solid #dbd7d5;
-  -webkit-appearance: none;
-  height: 165px;
-  min-height: inherit;
-}
 
-select {
-  padding: .7em;
-  border: 1px solid #dbd7d5;
-  width: 100%;
-  color: #959595;
-  background: #fff;
-  height: 38px;
-  font-size: 13px;
-  font-weight: 400;
-  outline: none;
-  padding-left: 20px;
-  position: relative;
-  -webkit-appearance: none;
-  border-radius: 0px;
-}
-
-label {
-  display: inline-grid;
-  text-align: left;
-  font-size: 13px;
-  line-height: 26px;
-  width: 100%;
-}
 
 a.more-link {
   border: 1px solid #989089;

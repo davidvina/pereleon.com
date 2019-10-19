@@ -10,9 +10,13 @@
 	<!-- wp_head -->
 	<?php wp_head(); ?>
 
+    <?php get_template_part( 'scripts_codes' ); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
+
+
 
 <?php themify_body_start(); // hook ?>
 <?php if (  themify_theme_show_area( 'search_form' ) ) : ?>

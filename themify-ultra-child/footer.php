@@ -122,7 +122,11 @@ if( themify_theme_show_area( 'footer_widgets' ) ) {
 
 		</div><!-- /#pagewrap -->
 
-        <?php dynamic_sidebar( 'footer_widget' ); ?>
+
+        <div class="call-to-action">
+            <?php dynamic_sidebar( 'footer_widget' ); ?>
+        </div>
+
 
 		<?php
 		/**

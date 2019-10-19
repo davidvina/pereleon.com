@@ -1,0 +1,167 @@
+#mobile-menu  {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+
+	#main-nav-wrap{
+		width: 100%;
+		display: block;
+	}
+}
+
+#header_widgets{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.sidemenu-on{
+	
+	.navbar-wrapper{
+		width: 100%;
+	}
+	
+	#header_widgets{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+// color
+#header_widgets .themify-social-links{
+	
+	.widget-title{
+		display: none;
+	}
+	
+	.social-link-item{
+		margin: 0;
+	}
+	
+	.social-links .icon-large i{
+		font-size: 20px;
+		width: 20px;
+		height: 20px;
+		padding: 0;
+		vertical-align: initial;
+		margin-right: 2px;
+	}
+	
+	a{
+		color: #999695;
+		
+		&:hover {
+			color: #bdd300;
+		}
+	}
+	
+	
+}
+
+//---------
+#header_widgets .header-telephone{
+	font-size: 28px;
+	font-weight: bold;
+	
+	i{
+		margin-right: 10px;
+		font-size: 20px;
+	}
+	
+	a{
+		color: #999695;
+		text-decoration: none;
+		
+		&:hover {
+			color: #bdd300;
+		}
+	}
+}
+
+
+//-- separadores
+
+#header_widgets{
+	.social-links:after,
+	.header-telephone:after{
+		content: '|';
+		font-weight: normal;
+		display: inline-block;
+		margin: 0 8px 0 5px;
+		font-size: 24px;
+		color: #bdd300;
+	}
+}
+
+.sidemenu-on #header_widgets{
+	.social-links:after,
+	.header-telephone:after{
+		content: none;
+	}
+}
+
+
+//---------
+
+#language-menu {
+	li {
+		list-style: none;
+		display: inline-block;
+		margin: 0 0 0 4px;
+	}
+	
+	a{
+		font-size: 14px;
+		padding: 0;
+	}
+	
+}
+
+//---------
+.sidemenu-on{
+	
+	#language-menu,
+	#header_widgets{
+		text-align: left;
+	}
+	
+	#language-menu li{
+		margin: 0 4px 0 0;
+	}
+	
+	
+	.header_widget{
+		margin-bottom: 15px;
+	}
+	
+	//--- order
+	.navbar-wrapper{
+		display: flex;
+		flex-direction: column;
+		
+		#main-nav-wrap{
+			order:1;
+		}
+		
+		.language-switcher{
+			order:2;
+			margin-bottom: 25px;
+		}
+		
+		#header_widgets{
+			order:3;
+		}
+	}
+}
+
+
+//-  menu
+#main-nav a {
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 0 5px 10px;
+  display: block;
+}

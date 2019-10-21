@@ -3,21 +3,6 @@
 
 <meta name="google-site-verification" content="qcuFnGH6moGd0u43mY6VJjNH8E4g18tJGLPzvP--zjY" />
 
-<script>
-    console.log('mamon');
-</script>
-
-<!-- Smartlook recorder -->
-<script type="text/javascript">
-    window.smartlook||(function(d) {
-        var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-        var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-        c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
-    })(document);
-    smartlook('init', '2909b1533f092eb43b0baa4f4c18cbd77d9ec98e');
-</script>
-<!-- End Smartlook recorder -->
-
 <!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,7 +23,6 @@
     })(window,document,'script','dataLayer','GTM-5L6PZ5V');</script>
 <!-- End Google Tag Manager -->
 
-<?php /*
 <!-- Facebook Pixel Code -->
 <script>
     !function(f,b,e,v,n,t,s)
@@ -57,6 +41,5 @@
          src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
 </noscript>
 <!-- End Facebook Pixel Code -->
- */ ?>
 
 

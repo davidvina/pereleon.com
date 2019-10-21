@@ -10807,13 +10807,7 @@ msgstr "Falta la hoja de estilo."
 msgid "The theme directory \"%s\" does not exist."
 msgstr "La carpeta de temas «%s» no existe."
 
-#. translators: 1: error message, 2: line number
-#: wp-includes/atomlib.php:175
-msgid "XML Error: %1$s at line %2$s"
-msgstr "Error de XML: %1$s en la línea %2$s"
-
-#: wp-includes/atomlib.php:151 wp-includes/feed.php:554
-#: wp-includes/IXR/class-IXR-message.php:48
+#: wp-includes/feed.php:554
 msgid "PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension."
 msgstr "La extensión XML de PHP no está disponible. Por favor contacta con tu proveedor de alojamiento para activar la extensión XML de PHP."
 
@@ -12669,8 +12663,7 @@ msgstr "%1$s en %2$s"
 msgid "by"
 msgstr "por"
 
-#: wp-includes/blocks/rss.php:27 wp-includes/rss.php:917
-#: wp-includes/widgets.php:1471
+#: wp-includes/blocks/rss.php:27 wp-includes/widgets.php:1471
 msgid "An error has occurred, which probably means the feed is down. Try again later."
 msgstr "Ocurrió un error, que probablemente implique que se ha caído el feed. Prueba de nuevo más tarde."
 

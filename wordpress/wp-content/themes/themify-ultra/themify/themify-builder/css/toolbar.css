@@ -2000,12 +2000,16 @@ LIGHTBOX FIELDS AND INPUT
 	border-radius: 3px;
 }
 /* Toolbar first child gap */
+#tb_lightbox_parent .tb_field.layout_post .themify_tooltip,
+.themify_builder.builder-lightbox .tb_field.layout_post .themify_tooltip,
 #tb_lightbox_parent .tb_options_tab_content > .tb_field:first-child .themify_tooltip,
 .themify_builder.builder-lightbox .tb_options_tab_content > .tb_field:first-child .themify_tooltip{
 	top: 100%;
 	bottom: auto;
 	transform: translate(-50%, 6px);
 }
+#tb_lightbox_parent .tb_field.layout_post .themify_tooltip::before,
+.themify_builder.builder-lightbox .tb_field.layout_post .themify_tooltip::before,
 .tb_options_tab_content > .tb_field:first-child .themify_tooltip::before{
 	top: auto;
 	bottom: 100%;

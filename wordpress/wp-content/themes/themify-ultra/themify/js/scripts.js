@@ -274,7 +274,7 @@
 				},
 				function() {
 					hideAlert();
-					$( 'body' ).trigger( 'themify_save' );
+					$( 'body' ).triggerHandler( 'themify_save' );
 				}
 			);
 		}
@@ -283,7 +283,7 @@
 		 * Save user settings
 		 * Uses nonces for security
 		 */
-		$('.save-button').click(function(e){
+		$('.save-button').on('click',function(e){
 			themify_save_settings();
 			return false;
 		});
@@ -1462,7 +1462,7 @@
 		});
 
 
-		if( typeof wp !== 'undefined' && typeof wp.media !== 'undefined' && typeof wp.media.featuredImage !== 'undefined' ) {
+		if( window['wp'] !== undefined  && window['wp']['media'] !== undefined && typeof wp.media.featuredImage !== 'undefined' ) {
 			// Featured Image option sync with WP Panel
 			$( 'body' ).on( 'themify_metabox_lib_selected', function( e, $el, attachment, file_frame ){
 				var data = $el.data( 'submit' );
@@ -1505,7 +1505,7 @@
 					$( '.inside', '#postimagediv' ).html( html );
 
 					// custom event trigger
-					$( 'body' ).trigger( 'themify_wp_media_featured_image_set', [ id, html ] );
+					$( 'body' ).triggerHandler( 'themify_wp_media_featured_image_set', [ id, html ] );
 				});
 			}
 		}

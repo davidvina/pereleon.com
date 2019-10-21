@@ -10796,13 +10796,7 @@ msgstr "Falta el full d'estil."
 msgid "The theme directory \"%s\" does not exist."
 msgstr "No existeix el directori \"%s\" del tema."
 
-#. translators: 1: error message, 2: line number
-#: wp-includes/atomlib.php:175
-msgid "XML Error: %1$s at line %2$s"
-msgstr "Error de XML: %1$s en la línia %2$s"
-
-#: wp-includes/atomlib.php:151 wp-includes/feed.php:554
-#: wp-includes/IXR/class-IXR-message.php:48
+#: wp-includes/feed.php:554
 msgid "PHP's XML extension is not available. Please contact your hosting provider to enable PHP's XML extension."
 msgstr "L'extensió XML de PHP no està disponible. Contacteu amb el vostre proveïdor d'allotjament per habilitar-la."
 
@@ -12658,8 +12652,7 @@ msgstr "%1$s a %2$s"
 msgid "by"
 msgstr "per"
 
-#: wp-includes/blocks/rss.php:27 wp-includes/rss.php:917
-#: wp-includes/widgets.php:1471
+#: wp-includes/blocks/rss.php:27 wp-includes/widgets.php:1471
 msgid "An error has occurred, which probably means the feed is down. Try again later."
 msgstr "S'ha produït un error; probablement l'RSS ha deixat de funcionar. Torneu-ho a provar d'aquí una estona."
 

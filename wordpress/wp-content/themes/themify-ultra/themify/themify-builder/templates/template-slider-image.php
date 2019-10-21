@@ -29,15 +29,18 @@ if (!empty($args['settings']['img_content_slider'])):
     <!-- module slider image -->
 
     <?php foreach ($args['settings']['img_content_slider'] as $content): ?>
-        <?php $image_title = isset($content['img_title_slider']) ? $content['img_title_slider'] : '';?>
+        <?php $image_title = isset($content['img_title_slider']) ? $content['img_title_slider'] : '';
+		$isAlt=false;
+	?>
         <li>
             <div class="slide-inner-wrap"<?php if ($args['settings']['margin'] !== ''): ?> style="<?php echo $args['settings']['margin']; ?>"<?php endif; ?>>
                 <?php if ( ! empty( $content['img_url_slider'] ) ) : ?>
                     <div class="slide-image">
                         <?php
-						if ( ! $image_title ) {
-							$image_title = Themify_Builder_Model::get_alt_by_url( $content['img_url_slider'] );
-						}
+			    if ( $image_title===''  ) {
+				$image_title = Themify_Builder_Model::get_alt_by_url( $content['img_url_slider'] );
+				$isAlt=true;
+			    }
                         if ($is_img_disabled===true) {
                             $image = '<img src="' . esc_url( $content['img_url_slider'] ) . '" alt="' . esc_attr( $image_title ) . '" width="' . $image_w . '" height="' . $image_h . '"/>';
                         } else {
@@ -62,10 +65,10 @@ if (!empty($args['settings']['img_content_slider'])):
                     </div><!-- /slide-image -->
                 <?php endif; ?>
 
-                <?php if ($image_title !== '' || isset($content['img_caption_slider'])): ?>
+                <?php if (($isAlt===false && $image_title !== '') || isset($content['img_caption_slider'])): ?>
                     <div class="slide-content tb_text_wrap">
 
-                        <?php if ($image_title !== ''): ?>
+                        <?php if ($isAlt===false && $image_title !== ''): ?>
                             <h3 class="slide-title">
                                 <?php if (!empty($content['img_link_slider'])): ?>
                                     <a href="<?php echo esc_url($content['img_link_slider']); ?>"<?php echo $attr; ?>><?php echo wp_kses_post($image_title); ?></a>

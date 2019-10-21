@@ -1244,7 +1244,7 @@ if (!class_exists('Themify_Customizer')) :
 					if (isset($font->family->name) && '' != $font->family->name) {
 
 						if (isset($font->family->fonttype) && ( 'google' === $font->family->fonttype || 'cf' === $font->family->fonttype ) ) {
-							$font_family = $font->family->name;
+							$font_family =$font->family->name;
 							if (!empty($font->weight) && $font->weight !== 'normal') {
 								$font_family.=':normal,' . $font->weight;
 
@@ -1260,7 +1260,23 @@ if (!class_exists('Themify_Customizer')) :
 								$this->customizer_cf_fonts[] = $font_family;
 							}
 						}
-						$out .= sprintf("\n\tfont-family: '%s';", $prefix . $font->family->name . $suffix);
+						$fonName=explode(',',$font->family->name);
+						$res='';
+						$count = count($fonName);
+						
+						for($i=0;$i<$count;++$i){
+						    $f = trim($fonName[$i]);
+						    if($f!=='serif' && $f!=='sans-serif' && $f!=='monospace' && $f!=='fantasy' && $f!=='cursive' && $f[0]!=='"' && $f[0]!=="'"){
+							$res.='"'.$f.'"';
+						    }
+						    else{
+							$res.=$f;
+						    }
+						    if($i!==($count-1)){
+							$res.=', ';
+						    }
+						}
+						$out.= sprintf("\n\tfont-family: %s;", $prefix . $res . $suffix);
 					}
 					if (!isset($font->nostyle) || '' == $font->nostyle) {
 						if (!empty($font->italic)) {

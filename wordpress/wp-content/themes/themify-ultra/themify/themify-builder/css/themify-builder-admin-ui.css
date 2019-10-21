@@ -2116,7 +2116,7 @@ body.tb_drag_start #tb_component_bar.tb_clicked,
 #tb_component_bar .tb_row_toolbar_menu{
 	margin-bottom:10px;
 }
-.tb_dropdown>li{
+body .tb_dropdown>li{
 	height:100%;
 	text-align:center;
 	vertical-align:middle;
@@ -2124,7 +2124,7 @@ body.tb_drag_start #tb_component_bar.tb_clicked,
 	position:relative;
 	box-sizing: border-box;
 	padding: 8px;
-        font-family: 'themify' !important;
+	font-family: 'themify' !important;
 	margin: 0;
 	cursor:pointer;
 	color: #fff !important;

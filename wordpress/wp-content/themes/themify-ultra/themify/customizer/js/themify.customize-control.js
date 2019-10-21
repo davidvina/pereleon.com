@@ -29,11 +29,11 @@
 
 	'use strict';
 	// Google Font Loader for fonts preview
-	var wf = document.createElement('script');
-	wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js';
+	var wf = document.createElement('script'),
+            s = document.getElementsByTagName('script')[0];
+	wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
 	wf.type = 'text/javascript';
 	wf.async = 'true';
-	var s = document.getElementsByTagName('script')[0];
 	s.parentNode.insertBefore(wf, s);
 	var api = wp.customize,
 		initialLoad = true;
@@ -1106,8 +1106,8 @@
 					}
 
 					var $this = $(this);
-					$this.off('focusin');
-					$this.scombobox({
+					$this.off('focusin')
+                                        .scombobox({
 						wrap: true,
 						reassignId: false,
 						empty: $selected ? false : true,
@@ -2081,12 +2081,12 @@
 	// Mobile Menu Customizer
 	/* when closing the Mobile Menu accordion, close the sidemenu panel automatically */
 	$( 'body' ).on( 'click', '#customize-control-start_mobile_menu_acc_ctrl:not(.topen) > .themify-suba-toggle', function ( e ) {
-		var menuPreview = jQuery('#customize-preview > iframe')[0].contentWindow;
+		var menuPreview = $('#customize-preview > iframe')[0].contentWindow;
 		menuPreview.jQuery('#menu-icon').themifySideMenu( 'hide' );
-	} );
+	} )
 	/* when Mobile Menu toggle is opened, show the sidemenu panel, activate the Desktop breakpoint and resize the preview window */
-	$( 'body' ).on( 'click', '#customize-control-start_mobile_menu_acc_ctrl.topen > .themify-suba-toggle', function ( e ) {
-		var menuPreview = jQuery('#customize-preview > iframe')[0].contentWindow;
+	.on( 'click', '#customize-control-start_mobile_menu_acc_ctrl.topen > .themify-suba-toggle', function ( e ) {
+		var menuPreview = $('#customize-preview > iframe')[0].contentWindow;
 		$('#customize-footer-actions .preview-desktop').click();
 		// wait 1 second for resizing to desktop to finish
 		setTimeout( function(){
@@ -2098,9 +2098,9 @@
 			}
 			menuPreview.jQuery('#menu-icon').themifySideMenu( 'show' );
 		}, 1000 );
-	});
+	})
 	/* when switching to a breakpoint other than desktop, close the Mobile Menu settings */
-	$( 'body' ).on( 'click', '#customize-footer-actions button', function(){
+	.on( 'click', '#customize-footer-actions button', function(){
 		if( ! $( this ).hasClass( 'preview-desktop' ) ) {
 			$( '#customize-control-start_mobile_menu_acc_ctrl.topen .themify-suba-toggle' ).click();
 		}

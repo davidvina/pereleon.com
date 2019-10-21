@@ -2893,7 +2893,7 @@ if(!function_exists('themify_manage_script_minification_settings')) {
 		    </p>';
 		$output.='<p>
 			<span class="label">' . __( 'Gzip Scripts', 'themify' ) . '</span>
-			<label for="setting-cache_gzip"'.($gzip===null?' class="themify_field_disable"':'').'><input type="checkbox"'.($gzip===null?' disabled="disabled"':'').'id="setting-cache_gzip" name="setting-cache_gzip" '.checked( $gzip, true, false ).'/> ' . __('Recommended to enable', 'themify').'</label>
+			<label for="setting-cache_gzip"'.($gzip===null?' class="themify_field_disable"':'').'><input type="checkbox"'.($gzip===null?' disabled="disabled"':'').'id="setting-cache_gzip" name="setting-cache_gzip" '.checked( $gzip, true, false ).'/> ' . __('Enable Gzip scripts (recommended)', 'themify').'</label>
 			<small class="pushlabel">'.__('Using gzip version of scripts can reduce script file size by 60-80%.','themify').'</small>
 			<small class="pushlabel'.($gzip===null?' themify_warning':'').'" style="margin:20px 0;">'.$message.'</small>
 		</p>';

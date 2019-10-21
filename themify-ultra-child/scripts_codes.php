@@ -41,5 +41,3 @@
          src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
 </noscript>
 <!-- End Facebook Pixel Code -->
-
-

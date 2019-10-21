@@ -30,6 +30,10 @@
     opacity:1;
     position:relative;
 }
+.masonry-done.products,
+.woocommerce .masonry-done.products{
+	display:block;
+}
 .list-post.woocommerce .masonry-done.products>.grid-sizer,
 .list-post.woocommerce .masonry-done.products>.product,
 .masonry-done.list-thumb-image>.grid-sizer,
@@ -178,7 +182,6 @@
 }
 @media (max-width: 680px){
 	.masonry-done>.post,
-	.woocommerce-page .masonry-done.products:not(.tf_fluid)>.product,
 	.woocommerce-page .masonry-done.products:not(.tf_fluid)>.product,
 	.masonry-done>.grid-sizer{
 		width:100% !important;

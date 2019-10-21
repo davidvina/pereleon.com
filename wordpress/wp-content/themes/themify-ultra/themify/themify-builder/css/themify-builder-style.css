@@ -4175,6 +4175,7 @@ MENU MODULE
     color:inherit;
     cursor:pointer;
     text-decoration:none;
+	z-index: 99;
 }
 .mobile-menu-module > .menu-close:hover{
     transform:rotate(90deg);

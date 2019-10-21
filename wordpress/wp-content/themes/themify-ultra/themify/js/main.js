@@ -1,4 +1,4 @@
-// tfsmartresize helper
+;// tfsmartresize helper
 var Themify;
 !function (e) {
     'use strict';
@@ -58,7 +58,7 @@ var Themify;
         isTouch: false,
         isRTL: false,
         isoTopItems: [],
-		isoTopSelectors:{},
+        isoTopSelectors:{},
         backstretchItems: [],
         isLoaded: null,
         triggerEvent: function (target, type, params) {
@@ -734,7 +734,7 @@ var Themify;
                 }
                 return false;
             }
-            if (href.indexOf('.min.css') === -1 && typeof themify_vars !== 'undefined' && themify_vars !== null) {
+            if (href.indexOf('.min.css') === -1 && window['themify_vars']!== undefined && window['themify_vars'] !== null) {
                 var name = href.match(/([^\/]+)(?=\.\w+$)/);
                 if (name && name[0]) {
                     name = name[0].replace('.min', '');
@@ -844,7 +844,7 @@ var Themify;
             this.LoadAsync(themify_vars.url + '/js/themify.gallery.js', function () {
                 Themify.GalleryCallBack($el, args);
             }, null, null, function () {
-                return ('undefined' !== typeof ThemifyGallery);
+                return window['ThemifyGallery']!==undefined;
             });
         },
         InitGallery: function ($el, args) {

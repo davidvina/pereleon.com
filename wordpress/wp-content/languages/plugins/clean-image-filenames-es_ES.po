@@ -1,0 +1,52 @@
+# Translation of Plugins - Clean Image Filenames - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Clean Image Filenames - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-26 14:27:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Clean Image Filenames - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://upperdog.com"
+msgstr "https://upperdog.com"
+
+#. Author of the plugin/theme
+msgid "Upperdog"
+msgstr "Upperdog"
+
+#. Description of the plugin/theme
+msgid "Filenames with special characters or language accent characters can sometimes be a problem. This plugin takes care of that by cleaning the filenames."
+msgstr "Los nombres de archivo con caracteres especiales o acentos pueden a veces causar problemas. Este plugin se encarga de ello limpiando los nombres de archivo."
+
+#. Plugin Name of the plugin/theme
+msgid "Clean Image Filenames"
+msgstr "Clean Image Filenames"
+
+#: clean-image-filenames.php:190
+msgid "The setting for what file types should be cleaned is disabled since a plugin or theme has already defined what file types should be cleaned."
+msgstr "El ajuste para los tipos de archivo que se deben limpiar está desactivado, ya que un plugin o tema ya ha definido los tipos de archivo que se deben limpiar."
+
+#: clean-image-filenames.php:170
+msgid "Choose which file types that Clean Image Filenames shall improve the filenames for when files are uploaded."
+msgstr "Elige los tipos de archivo a los que Clean Image Filenames mejorará los nombres de archivo cuando sean subidos."
+
+#: clean-image-filenames.php:160
+msgid "Settings"
+msgstr "Ajustes"
+
+#: clean-image-filenames.php:142
+msgid "Images only"
+msgstr "Sólo imágenes"
+
+#: clean-image-filenames.php:138
+msgid "All file types"
+msgstr "Todos los tipos de archivo"
+
+#: clean-image-filenames.php:130
+msgid "File types"
+msgstr "Tipos de archivo"

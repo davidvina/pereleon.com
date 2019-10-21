@@ -439,7 +439,7 @@ ThemifyGallery = {
 		// Load Themify Icons for social sharing icons
 		Themify.LoadCss(themify_vars.url + '/themify-icons/themify-icons.css', themify_vars.version);
 		var el = self.content[0].getElementsByClassName('tb_social_sharing')[0];
-		if ( typeof el !== 'undefined' ) {
+		if ( el !== undefined) {
 			el.addEventListener('click',function(e){
 				ThemifyBuilderModuleJs.sharer(e.target.dataset['type'],self.currItem.data.src.replace('?iframe=true',''),self.currItem.data.title)
 				return false;

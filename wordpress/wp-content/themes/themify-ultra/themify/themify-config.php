@@ -51,7 +51,7 @@ function themify_config_init() {
 
 	/* 	Themify Framework Version
  	****************************************************************************/
-	define( 'THEMIFY_VERSION', '4.7.1' ); 
+	define( 'THEMIFY_VERSION', '4.7.2' ); 
 
 	/* 	Run after update
  	***************************************************************************/

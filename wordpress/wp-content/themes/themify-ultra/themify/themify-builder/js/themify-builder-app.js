@@ -2324,6 +2324,7 @@ var tb_app;
         doScroll: function (el) {
             //todo
             return el;
+            /*
             var offset = 0,
                     body = api.mode !== 'visual' || api.activeBreakPoint === 'desktop' ? $('html,body') : $('body', topWindow.document);
             if (api.mode === 'visual') {
@@ -2335,6 +2336,7 @@ var tb_app;
             }
             body.scrollTop(el.offset().top - offset);
             return el;
+            */
         },
         keypres: function (e) {
             // Redo

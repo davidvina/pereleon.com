@@ -3,8 +3,9 @@
 .well-known
 
 ### WordPress template
-
+wordpress/.htaccess
 wordpress/wp-config.php
+wordpress/wp-content/themes/themify-ultra-child
 
 # ignore everything in the root except the "wp-content" directory.
 wordpress/wp-content/uploads

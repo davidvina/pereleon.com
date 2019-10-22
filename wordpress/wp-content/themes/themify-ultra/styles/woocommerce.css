@@ -190,7 +190,7 @@
 .woocommerce-page .cart-collaterals .cart_totals {
     text-align: right;
 }
-.woocommerce .cart-collaterals .amount {
+.woocommerce .cart-collaterals .cart_totals .amount {
     text-align: right;
     display: block;
     font-size: 1.2em;
@@ -210,7 +210,7 @@
 
 /* cart table h2 */
 .cart-collaterals h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 /* cart update button */
@@ -749,6 +749,15 @@ body:not(.sidebar-none) .woocommerce-checkout.checkout h3 {
     margin: 0;
 }
 
+/* cart page - cross sell */
+.woocommerce .cross-sells ul.products li.product {
+	width: 48%;
+}
+.woocommerce .cross-sells ul.products li.product:nth-of-type(2n+1) {
+	margin-left: 0;
+	clear: both;
+}
+
 /* cart total */
 #slide-cart .cart-total {
 	float: left;
@@ -916,7 +925,7 @@ body:not(.sidebar-none) .woocommerce-checkout.checkout h3 {
 ================================================ */
 .woocommerce ul.products li.product {
 	list-style: none;
-	margin: 0 0 5%;
+	margin: 0 0 6% 3.2%;
 	clear: none;
 	box-sizing: border-box;
     text-align: center;

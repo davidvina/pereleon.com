@@ -1,0 +1,12 @@
+#main-nav a,
+#main-nav > li > a{
+	margin-left: 10px;
+	font-size: 14px;
+	border-left: 1px solid #cccccc;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#main-nav > li:first-child > a{
+	border-left: none;
+}

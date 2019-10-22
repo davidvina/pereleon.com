@@ -91,6 +91,7 @@
 
 
                             <div id="header_widgets">
+
                                 <?php dynamic_sidebar( 'header_widget' ); ?>
 
                                 <nav class="language-switcher">

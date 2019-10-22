@@ -15,6 +15,37 @@
 	align-items: center;
 	margin-bottom: 15px;
 	margin-top: 15px;
+	flex-wrap: wrap;
+	
+	.widget_custom_html{
+		width: 100%;
+		order: 2;
+		margin-top: 0;
+		
+		@media (min-width: 768px) {
+			order: 3;
+			margin-top: 15px;
+		}
+	}
+	
+	.themify-social-links{
+		order:2;
+		
+		@media (min-width: 768px) {
+			order: 1;
+		}
+	}
+	
+	.language-switcher{
+		order: 3;
+		
+		@media (min-width: 768px) {
+			order: 2;
+		}
+	}
+	
+	
+	
 }
 
 .sidemenu-on{
@@ -62,12 +93,12 @@
 
 //---------
 #header_widgets .header-telephone{
-	font-size: 22px;
-	font-weight: bold;
+	font-size: 16px;
+;
 	
 	i{
 		margin-right: 10px;
-		font-size: 20px;
+		font-size: 16px;
 	}
 	
 	a{
@@ -75,18 +106,22 @@
 		text-decoration: none;
 		display: block;
 		margin-top: 15px;
+		margin-left: 0;
 		
 		&:hover {
 			color: #bdd300;
 		}
 		
-		@media (min-width: 600px) {
+		@media (min-width: 768px) {
 			display: inline-block;
 			margin-top: 0;
 			margin-left: 15px;
 		}
 	}
 	
+	.tel{
+		font-weight: bold;
+	}
 	
 }
 
@@ -94,14 +129,13 @@
 //-- separadores
 
 #header_widgets{
-	.social-links:after,
-	.header-telephone:after{
+	.social-links:after{
 		content: '|';
 		font-weight: normal;
 		display: inline-block;
 		margin: 0 8px 0 5px;
 		font-size: 24px;
-		color: #bdd300;
+		color: #cccccc;
 	}
 }
 

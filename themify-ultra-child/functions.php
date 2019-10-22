@@ -31,6 +31,16 @@ add_action( 'widgets_init', function(){
     ] );
 
     register_sidebar( [
+        'name'          => 'Sobre capçalera',
+        'id'            => 'header_widget_top',
+        'description'   => 'Zona de widgets en cabecera',
+        'before_widget' => '<div id="%1$s" class="widget header_widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<span class="widget-title">',
+        'after_title'   => '</span>',
+    ] );
+
+    register_sidebar( [
         'name'          => 'Pie',
         'id'            => 'footer_widget',
         'description'   => 'Zona de widgets en pie',
